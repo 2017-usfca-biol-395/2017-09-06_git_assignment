@@ -10,6 +10,9 @@ echo "Creating .gitkeep files in empty directories"
 cd code
 touch .gitkeep
 cd ..
+cd data
+touch .gitkeep
+cd ..
 cd output/figures
 touch .gitkeep
 cd ..
