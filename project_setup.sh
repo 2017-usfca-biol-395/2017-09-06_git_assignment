@@ -8,7 +8,7 @@
 
 # make project folders
 echo "creating folder structure..."
-mkdir 2017-08-30_bioinformatics_project
+mkdir $(date "+%Y-%m-%d)_bioinformatics_project
 cd 2017-08-30_bioinformatics_project
 mkdir data data/raw_data code output output/tables output/figures
 echo "created folder structure"
