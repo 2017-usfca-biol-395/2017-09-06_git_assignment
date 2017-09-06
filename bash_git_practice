@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# A script to practice bash and git hub
+# Kanani Hinds lhinds2@usfca.edu
+# September 09, 2017
+
+# Setup folder structure
+echo "Creating folder structure..."
+mkdir 2017-09-06_bioinfo_bash_git
+cd 2017-09-06_bioinfo_bash_git
+mkdir code data data/raw_data output output/figures output/tables
+
+# Download fasta file into raw_data subdirectory
+echo "Downloading data..."
+
+# curl -L http://npk.io/aMPCOe+ -o data/raw_data/crab_rRNA.fasta
+
+echo "All done!"
