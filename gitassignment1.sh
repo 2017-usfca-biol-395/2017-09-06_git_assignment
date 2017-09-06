@@ -10,6 +10,9 @@ echo "Setting up project...."
 cd 2017-09-06_git_assignment
 mkdir code data
 
+cd code
+mkdir touch .gitkeep
+cd ../
 cd data
 mkdir raw_data
 cd raw_data
@@ -19,5 +22,10 @@ cd ../../
 mkdir output
 cd output
 mkdir figures tables
+cd figures
+mkdir touch .gitkeep
+cd ../
+cd tables
+mkdir touch .gitkeep 
 
 echo "Done setting up bioinformatics project!"
