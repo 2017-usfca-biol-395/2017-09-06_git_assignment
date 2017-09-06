@@ -12,4 +12,5 @@ mkdir code data data/raw_data output output/figures output/tables
 echo "Downloading data..."
 curl -L  http://npk.io/aMPCOe+ -o data/raw_data/filename.fasta
 
+touch code/.gitkeep
 echo "All done"
