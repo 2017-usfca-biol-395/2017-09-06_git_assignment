@@ -9,11 +9,11 @@ echo "Creating folder structure..."
 mkdir 2017-09-06_bioinfo_bash_git
 cd 2017-09-06_bioinfo_bash_git
 mkdir code data data/raw_data output output/figures output/tables
-touch .gitkeep
+touch code/.gitkeep output/figure/.gitkeep output/tables/.gitkeep
 
 # Download fasta file into raw_data subdirectory
 echo "Downloading data..."
 
-# curl -L http://npk.io/aMPCOe+ -o data/raw_data/crab_rRNA.fasta
+curl -L http://npk.io/aMPCOe+ -o data/raw_data/crab_rRNA.fasta
 
 echo "All done!"
