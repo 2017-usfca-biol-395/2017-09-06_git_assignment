@@ -8,6 +8,7 @@ echo "Creating folder structure..."
 mkdir code data data/raw_data output output/figures output/tables 
 
 touch code/.gitkeep output/.gitkeep
+touch output/figures/.gitkeep output/tables/.gitkeep 
 
 # Download fasta file into raw data 
 echo "Downloading data..." 
