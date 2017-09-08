@@ -20,6 +20,7 @@ echo "Done making the data directories"
 mkdir output output/figures output/tables
 touch output/figures/git.keep
 touch output/tables/git.keep
+
 echo "Done setting up output directories."
 
 echo "All Done!"
